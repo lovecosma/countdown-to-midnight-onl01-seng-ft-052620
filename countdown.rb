@@ -13,7 +13,7 @@ end
 @seconds = seconds
 @sleeper = 5 - @seconds
 if @sleeper <= 0
-until @second 
-end 
+until @second
+end
 
 end
