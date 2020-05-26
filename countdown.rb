@@ -11,8 +11,8 @@ end
 
 def countdown_with_sleep (seconds)
 @seconds = seconds
-while @seconds < 5000 
+while @seconds < 5000
 @seconds += 1
- if @seconds == 1000
 end
+return true
 end
