@@ -9,7 +9,7 @@ end
 if  @seconds == 0
 return "HAPPY NEW YEAR!"
 end
-end 
+end
 
 def countdown_with_sleep (seconds)
 sleep(5)
