@@ -7,7 +7,7 @@ until @seconds == 0
   @seconds -= 1
 end
 if  @seconds == 0
-return "HAPPY NEW YEAR!"
+  return "HAPPY NEW YEAR!"
 end
 end
 
