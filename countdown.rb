@@ -17,4 +17,5 @@ while @seconds < 5
 end
 if @seconds == 5
   @awake = true
+end 
 end
