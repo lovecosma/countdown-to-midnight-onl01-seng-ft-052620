@@ -5,7 +5,6 @@ def countdown(seconds)
 until @seconds <= 0
 puts "#{@seconds}(s)!"
 @seconds -= 1
-
 end
 return "HAPPY NEW YEAR!"
 end
