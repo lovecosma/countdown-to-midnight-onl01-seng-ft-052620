@@ -10,5 +10,5 @@ def countdown(seconds)
 end
 
 def countdown_with_sleep (seconds)
-@time = Time.new(5)
+
 end
