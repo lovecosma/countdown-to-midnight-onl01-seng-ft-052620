@@ -12,10 +12,8 @@ end
  def countdown_with_sleep (seconds)
 @seconds = seconds
 @sleeper = 5 - @seconds
-until @sleeper == 0
-  @sleeper -= 1
+if @sleeper <= 0
+until @second 
+end 
+
 end
-if @sleeper == 0
-
-
- end
