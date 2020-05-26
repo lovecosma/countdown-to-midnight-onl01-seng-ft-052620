@@ -3,7 +3,7 @@
 def countdown(seconds)
 @seconds = seconds
 until @seconds <= 0
-puts "#{@seconds}(s)!"
+puts "#{@seconds} SECOND(S)!"
 @seconds -= 1
 end
 return "HAPPY NEW YEAR!"
