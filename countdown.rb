@@ -13,7 +13,9 @@ end
 @seconds = seconds
 @sleeper = 5 - @seconds
 if @sleeper <= 0
-until @second
+until @seconds == 0
+  puts "#{@seconds} SECOND(s)!"
+  @seconds -= 1
 end
 
 end
