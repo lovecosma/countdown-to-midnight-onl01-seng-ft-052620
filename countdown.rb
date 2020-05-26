@@ -4,7 +4,7 @@ def countdown(seconds)
   @seconds = seconds
 until @seconds == -1
   puts "#{@seconds} SECOND(s)!"
-  @seconds -= 1
+  @seconds.abs -= 1
 end
 if  @seconds == 0
   return "HAPPY NEW YEAR!"
