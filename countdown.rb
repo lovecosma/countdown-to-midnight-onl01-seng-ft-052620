@@ -5,10 +5,9 @@ def countdown(seconds)
   while @seconds > 0
   puts "#{@seconds} SECOND(s)!"
   @seconds -= 1
-  end
-if @second == 0
+end
+ @second == 0
     return "HAPPY NEW YEAR!"
-  end 
 end
 
 def countdown_with_sleep (seconds)
