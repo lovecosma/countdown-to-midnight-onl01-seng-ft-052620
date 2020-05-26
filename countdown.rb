@@ -8,3 +8,12 @@ def countdown(seconds)
   end
   return "HAPPY NEW YEAR!"
 end
+
+ def countdown_with_sleep (seconds)
+@secons = seconds
+@sleeper = 5
+until @sleeper == 0 
+  @sleeper -= 1
+
+
+ end
