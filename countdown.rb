@@ -10,6 +10,6 @@ def countdown(seconds)
 end
 
 def countdown_with_sleep (seconds)
-@seconds = 0
+@seconds = seconds
 while @
 end
