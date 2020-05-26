@@ -2,7 +2,7 @@
 
 def countdown(seconds)
 @seconds = seconds
-until @seconds <= 0
+until @seconds <=s 
 puts "#{@seconds}(s)!"
 @seconds -= 1
 end
