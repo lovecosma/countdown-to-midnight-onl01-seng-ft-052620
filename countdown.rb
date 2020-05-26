@@ -11,4 +11,4 @@ end
 
 def cousleeper = 0@seconds = seconds
 @sleeper = 5 - @seconds
-end 
+end
