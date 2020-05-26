@@ -15,7 +15,7 @@ def countdown_with_sleep (seconds)
 while @seconds <= 6
 @seconds += 1
 end
-if @seconds == 5
+if @seconds >=  5
   @awake = true
 end
 end
