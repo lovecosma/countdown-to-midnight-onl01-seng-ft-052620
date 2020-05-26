@@ -3,7 +3,7 @@
 def countdown(seconds)
 @seconds = seconds
 puts "#{@seconds}(s)!"
-until @seconds <=s 
+until @seconds <=s
 puts "#{@seconds}(s)!"
 @seconds -= 1
 end
