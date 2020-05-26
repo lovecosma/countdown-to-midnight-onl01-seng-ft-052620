@@ -2,7 +2,6 @@
 
 def countdown(seconds)
 @seconds = seconds
-if @seconds > 0
 puts "#{@seconds}(s)!"
 until @seconds <= 0
 puts "#{@seconds}(s)!"
