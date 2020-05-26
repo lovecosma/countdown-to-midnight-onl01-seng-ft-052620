@@ -3,9 +3,9 @@
 def countdown(seconds)
   @seconds = seconds
 until @seconds == 0
-  puts "#{@seconds.abs} SECOND(s)!"
   @seconds-= 1
 end
+puts "#{@seconds.abs} SECOND(s)!"
 if  @seconds == 0
   return "HAPPY NEW YEAR!"
 end
