@@ -1,12 +1,12 @@
 #write your code here
 
 def countdown(seconds)
-  @seconds = seconds
-puts "#{@seconds} SECOND(s)!"
-@seconds -= 1
-if  @seconds == 0
-  return "HAPPY NEW YEAR!"
+@seconds = seconds
+until @seconds == 0
+puts "#{@seconds}(s)!"
+@seconds += 1
 end
+return "HAPPY NEW YEAR!"
 end
 
 def countdown_with_sleep (seconds)
