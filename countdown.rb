@@ -2,9 +2,6 @@
 
 def countdown(seconds)
   @seconds = seconds
-while @seconds != 0
-  @seconds -= 1
-end
 puts "#{@seconds.abs} SECOND(s)!"
 if  @seconds == 0
   return "HAPPY NEW YEAR!"
