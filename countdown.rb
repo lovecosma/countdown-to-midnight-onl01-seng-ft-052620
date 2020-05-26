@@ -10,6 +10,5 @@ def countdown(seconds)
 end
 
 def countdown_with_sleep (seconds)
-while @seconds < 5000
-@seconds += 1]
+puts runtime.real
 end
